@@ -5,3 +5,7 @@
 #
 #   movies = Movie.create([{ name: "Star Wars" }, { name: "Lord of the Rings" }])
 #   Character.create(name: "Luke", movie: movies.first)
+Article.destroy_all
+
+Article.create(title: "Rodolphe est marié !!!!", body: "Clément entre en maison de repos pour sa santé mentale, il est très déçu mais n'abandonne pas la lutte pour le coeur de Rodolphe.
+")
